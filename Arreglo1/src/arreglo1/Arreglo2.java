@@ -4,6 +4,7 @@ package arreglo1;
 
 public class Arreglo2 {
     public static void main(String[] args) {
+        //Inicializacion de Variables
         int[]c=new int[7];
         c[0]=1;
         c[1]=2;
@@ -15,7 +16,7 @@ public class Arreglo2 {
         int mult=0;
         int contador2=1;
         
-        
+        //Lenght ->(Numero de datos en el arreglo)
         for(int contador=0;contador<c.length;contador++){
             //System.out.println(c[contador]);
             if (c[contador]%2==0){
